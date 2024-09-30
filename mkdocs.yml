@@ -1,0 +1,9 @@
+site_name: Документация
+site_url: https://example.com/
+nav:
+  - Домой: index.md
+  - О проекте: about.md
+  - Документация:
+      - Введение: docs/intro.md
+      - Основные концепции: docs/concepts.md
+      - Примеры: docs/examples.md
