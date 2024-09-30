@@ -1,0 +1,35 @@
+### 6. Inline Class (Встраивание класса)
+Объединяет классы, которые тесно связаны.
+
+#### До
+```cs
+public class Employee
+{
+    public EmployeeDetails Details { get; set; }
+    
+    public void PrintDetails()
+    {
+        Console.WriteLine($"Name: {Details.Name}, Age: {Details.Age}");
+    }
+}
+
+public class EmployeeDetails
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
+```
+
+#### После
+```cs
+public class Employee
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+    
+    public void PrintDetails()
+    {
+        Console.WriteLine($"Name: {Name}, Age: {Age}");
+    }
+}
+```
