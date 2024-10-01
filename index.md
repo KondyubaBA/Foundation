@@ -2,7 +2,7 @@
 layout: default
 title: Главная
 ---
-
+<link rel="stylesheet" href="style.css">
 <div class="container">
   <nav>
     <ul>
