@@ -2,11 +2,10 @@
 layout: default
 title: Главная
 ---
-<link rel="stylesheet" href="style.css">
 
 <div class="container">
   <nav>
-    <ul>
+    <ul id="pages">
       {% for page in site.pages %}
         {% if page.url != '/' %}
           <li><a href="{{ page.url }}">{{ page.title }}</a></li>
@@ -15,11 +14,23 @@ title: Главная
     </ul>
   </nav>
   <main>
-    {% for page in site.pages %}
-      {% if page.url == page.url %}
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-      {% endif %}
-    {% endfor %}
+    <div id="content"></div>
   </main>
 </div>
+
+<script>
+document.getElementById('pages').addEventListener('click', function(e) {
+  e.preventDefault();
+  var link = e.target.closest('a');
+  if (link) {
+    var url = link.href;
+    fetch(url)
+      .then(response => response.text())
+      .then(data => {
+        var content = document.createElement('div');
+        content.innerHTML = data;
+        document.getElementById('content').innerHTML = content.innerHTML;
+      });
+  }
+});
+</script>
