@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+nav {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
