@@ -3,10 +3,20 @@ layout: default
 title: Главная
 ---
 
-<nav>
-  <ul>
+<div class="container">
+  <nav>
+    <ul>
+      {% for page in site.pages %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <main>
     {% for page in site.pages %}
-      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% if page.url == page.url %}
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      {% endif %}
     {% endfor %}
-  </ul>
-</nav>
+  </main>
+</div>
