@@ -22,3 +22,10 @@ public interface IServiceCollection : IList<ServiceDescriptor>
 {
 }
 ```
+
+```cs
+public interface IServiceProvider
+  {
+      object? GetService(Type serviceType);
+  }
+```
