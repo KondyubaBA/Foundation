@@ -1,4 +1,30 @@
 ```cs
+public class DefaultServiceProviderFactory : IServiceProviderFactory<IServiceCollection>
+{
+    private readonly ServiceProviderOptions _options;
+
+    public DefaultServiceProviderFactory() : this(ServiceProviderOptions.Default)
+    {
+    }
+
+    public DefaultServiceProviderFactory(ServiceProviderOptions options)
+    {
+        _options = options ?? throw new ArgumentNullException(nameof(options));
+    }
+
+    public IServiceCollection CreateBuilder(IServiceCollection services)
+    {
+        return services;
+    }
+
+    public IServiceProvider CreateServiceProvider(IServiceCollection containerBuilder)
+    {
+        return containerBuilder.BuildServiceProvider(_options);
+    }
+}
+```
+
+```cs
 public interface IServiceProviderFactory<TContainerBuilder> where TContainerBuilder : notnull
 {
     /// <summary>
