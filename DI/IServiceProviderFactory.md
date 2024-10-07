@@ -26,7 +26,8 @@ public class DefaultServiceProviderFactory : IServiceProviderFactory<IServiceCol
 
 
 <details>
-<summary>public interface IServiceProviderFactory<TContainerBuilder> where TContainerBuilder : notnull</summary>
+    <summary>IServiceProviderFactory</summary>
+    
 ```cs
 public interface IServiceProviderFactory<TContainerBuilder> where TContainerBuilder : notnull
 {
@@ -45,9 +46,21 @@ public interface IServiceProviderFactory<TContainerBuilder> where TContainerBuil
     IServiceProvider CreateServiceProvider(TContainerBuilder containerBuilder);
 }
 ```
-
 </details>
 
+
+<details>
+    <summary>ServiceProviderOptions</summary>
+
+```cs
+public class ServiceProviderOptions
+{
+    internal static readonly ServiceProviderOptions Default = new ServiceProviderOptions();
+    public bool ValidateScopes { get; set; }
+    public bool ValidateOnBuild { get; set; }
+}
+```
+</details>
 
 
 ```cs
