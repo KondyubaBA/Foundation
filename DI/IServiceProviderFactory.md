@@ -24,6 +24,9 @@ public class DefaultServiceProviderFactory : IServiceProviderFactory<IServiceCol
 }
 ```
 
+
+<details>
+<summary>public interface IServiceProviderFactory<TContainerBuilder> where TContainerBuilder : notnull</summary>
 ```cs
 public interface IServiceProviderFactory<TContainerBuilder> where TContainerBuilder : notnull
 {
@@ -42,6 +45,10 @@ public interface IServiceProviderFactory<TContainerBuilder> where TContainerBuil
     IServiceProvider CreateServiceProvider(TContainerBuilder containerBuilder);
 }
 ```
+
+</details>
+
+
 
 ```cs
 public interface IServiceCollection : IList<ServiceDescriptor>
