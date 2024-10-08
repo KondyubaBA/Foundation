@@ -1,4 +1,6 @@
 ```cs
+namespace Microsoft.Extensions.Hosting;
+
 public static class Host
 {
     public static IHostBuilder CreateDefaultBuilder() =>
