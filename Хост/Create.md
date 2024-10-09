@@ -32,6 +32,10 @@ private static void ApplyDefaultHostConfiguration(IConfigurationBuilder hostConf
 }
 ```
 
+
+<details>
+  <summary>SetDefaultContentRoot</summary>
+
 ```cs
         internal static void SetDefaultContentRoot(IConfigurationBuilder hostConfigBuilder)
         {
@@ -58,7 +62,9 @@ private static void ApplyDefaultHostConfiguration(IConfigurationBuilder hostConf
                 });
             }
         }
+</details>
 ```
+
 <details>
   <summary>HostDefaults</summary>
 
