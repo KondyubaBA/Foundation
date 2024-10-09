@@ -3,7 +3,14 @@
 Строитель хоста (IHostBuilder)
   - ConfigureDefaults
       - ConfigureHostConfiguration (настройка хоста)
-        - SetDefaultContentRoot (указать путь приложения)
-        - AddEnvironmentVariables (добавить переменные среды)
-        - AddCommandLineConfig (добавить параметры командной строки)
+        - ApplyDefaultHostConfiguration
+          - SetDefaultContentRoot (указать путь приложения)
+          - AddEnvironmentVariables (добавить переменные среды)
+          - AddCommandLineConfig (добавить параметры командной строки)
       - ConfigureAppConfiguration (настойка приложения)
+        - ApplyDefaultAppConfiguration
+          - AddJsonFile (добавляет appsettings.json)
+          - AddJsonFile (добавялет appsettings.Development.json или appsettings.Production.json)
+          - AddUserSecrets (добавляет серкреты пользователя)
+          - AddEnvironmentVariables (добавляет все переменные среды)
+          - AddCommandLineConfig (добавляет аргументы командной строки)
