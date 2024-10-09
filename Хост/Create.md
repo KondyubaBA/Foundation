@@ -23,9 +23,11 @@ public static IHostBuilder ConfigureDefaults(this IHostBuilder builder, string[]
 //public static class HostingHostBuilderExtensions
 private static void ApplyDefaultHostConfiguration(IConfigurationBuilder hostConfigBuilder, string[]? args)
 {
+    //устанавливает путь к корневому каталогу приложения
     SetDefaultContentRoot(hostConfigBuilder);
-
+    //добавляет все переменные среды в конфигурацию приложения, которые начинаются с префикса "DOTNET_"
     hostConfigBuilder.AddEnvironmentVariables(prefix: "DOTNET_");
+    //добавляет аргументы командной строки в конфигурацию приложения
     AddCommandLineConfig(hostConfigBuilder, args);
 }
 ```
