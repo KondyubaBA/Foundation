@@ -18,3 +18,14 @@ public static IHostBuilder ConfigureDefaults(this IHostBuilder builder, string[]
 }
 ```
 
+#### Настройка ConfigureHostConfiguration
+```cs
+//public static class HostingHostBuilderExtensions
+private static void ApplyDefaultHostConfiguration(IConfigurationBuilder hostConfigBuilder, string[]? args)
+{
+    SetDefaultContentRoot(hostConfigBuilder);
+
+    hostConfigBuilder.AddEnvironmentVariables(prefix: "DOTNET_");
+    AddCommandLineConfig(hostConfigBuilder, args);
+}
+```
