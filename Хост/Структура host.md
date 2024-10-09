@@ -23,3 +23,9 @@
       - UseServiceProviderFactory (создает фабрику)
         - DefaultServiceProviderFactory(создает фабрику)
           - CreateDefaultServiceProviderOptions (конфигурация опций провайдера сервисов для фабрики)
+         
+#### Build
+  - InitializeHostConfiguration();
+
+
+
