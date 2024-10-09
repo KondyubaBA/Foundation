@@ -62,8 +62,8 @@ private static void ApplyDefaultHostConfiguration(IConfigurationBuilder hostConf
                 });
             }
         }
-</details>
 ```
+</details>
 
 <details>
   <summary>HostDefaults</summary>
