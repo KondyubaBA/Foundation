@@ -26,6 +26,8 @@
          
 #### Build
   - InitializeHostConfiguration();
+    - IConfigurationBuilder (создает тип для конфигурации)
+    - 
 
 
 
