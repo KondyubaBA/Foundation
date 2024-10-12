@@ -87,5 +87,22 @@ if (validator is not null)
   - IStartupValidator? validator = Services.GetService<IStartupValidator>(); — получает валидатор, если он зарегистрирован.
   - validator.Validate(); — вызывает метод валидации, который проверяет корректность настройки приложения.
   - Если возникает исключение, оно добавляется в список exceptions и вызывается метод LogAndRethrow() для логирования и прерывания процесса запуска.
+
+#### Вызов методов жизненного цикла служб
+```cs
+if (_hostedLifecycleServices is not null)
+{
+    await ForeachService(_hostedLifecycleServices, token, concurrent, abortOnFirstException, exceptions,
+        (service, token) => service.StartingAsync(token)).ConfigureAwait(false);
+    LogAndRethrow();
+}
+```
+  - ForeachService — это вспомогательный метод, который вызывает метод StartingAsync для каждой службы.
+  - LogAndRethrow(); — вызывается для логирования и прерывания процесса запуска, если возникли исключения.
+
+
+
+
+
   
 </details>
