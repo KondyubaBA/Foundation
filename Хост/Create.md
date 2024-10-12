@@ -1,4 +1,4 @@
-#### ConfigureDefault
+#### 1. CreateDefaultBuilder
 ```cs
 public static IHostBuilder CreateDefaultBuilder(string[]? args)
 {
@@ -7,6 +7,7 @@ public static IHostBuilder CreateDefaultBuilder(string[]? args)
 }
 ```
 
+#### 2. ConfigureDefault - конфигурация по умолчанию
 ```cs
 //public static class HostingHostBuilderExtensions
 public static IHostBuilder ConfigureDefaults(this IHostBuilder builder, string[]? args)
@@ -18,7 +19,7 @@ public static IHostBuilder ConfigureDefaults(this IHostBuilder builder, string[]
 }
 ```
 
-#### Настройка ConfigureHostConfiguration
+#### 2.1 ConfigureHostConfiguration - конфигурация хоста
 ```cs
 //public static class HostingHostBuilderExtensions
 private static void ApplyDefaultHostConfiguration(IConfigurationBuilder hostConfigBuilder, string[]? args)
