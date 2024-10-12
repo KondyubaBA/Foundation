@@ -1,3 +1,6 @@
+<details>
+  <summary>Host</summary>
+    
 ```cs
 [DebuggerDisplay("{DebuggerToString(),nq}")]
 [DebuggerTypeProxy(typeof(HostDebugView))]
@@ -457,3 +460,4 @@ internal sealed class Host : IHost, IAsyncDisposable
     }
 }
 ```
+</details>
