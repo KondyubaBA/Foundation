@@ -135,3 +135,34 @@ public class ConfigurationRoot : IConfigurationRoot, IDisposable
 }
 ```
 </details>
+
+<details>
+  <summary>InternalConfigurationRootExtensions</summary>
+      
+```cs
+internal static class InternalConfigurationRootExtensions
+{
+    internal static IEnumerable<IConfigurationSection> GetChildrenImplementation(this IConfigurationRoot root, string? path)
+    {
+        using ReferenceCountedProviders? reference = (root as ConfigurationManager)?.GetProvidersReference();
+        IEnumerable<IConfigurationProvider> providers = reference?.Providers ?? root.Providers;
+
+        IEnumerable<IConfigurationSection> children = providers
+            .Aggregate(Enumerable.Empty<string>(),
+                (seed, source) => source.GetChildKeys(seed, path))
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .Select(key => root.GetSection(path == null ? key : path + ConfigurationPath.KeyDelimiter + key));
+
+        if (reference is null)
+        {
+            return children;
+        }
+        else
+        {
+            // Eagerly evaluate the IEnumerable before releasing the reference so we don't allow iteration over disposed providers.
+            return children.ToList();
+        }
+    }
+}
+```
+</details>
