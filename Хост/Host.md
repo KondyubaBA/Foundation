@@ -1,3 +1,4 @@
+Microsoft.Extensions.Hosting.Internal.Host
 <details>
   <summary>IHost</summary>
 
@@ -19,5 +20,20 @@ public interface IHost : IDisposable
 ```cs
 _logger.Starting();
 ```
+Логика для ограничения по времени выполнения задачи
+```cs
+CancellationTokenSource? cts = null;
+CancellationTokenSource linkedCts;
+if (_options.StartupTimeout != Timeout.InfiniteTimeSpan)
+{
+    cts = new CancellationTokenSource(_options.StartupTimeout);
+    linkedCts = CancellationTokenSource.CreateLinkedTokenSource(cts.Token, cancellationToken, _applicationLifetime.ApplicationStopping);
+}
+else
+{
+    linkedCts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken, _applicationLifetime.ApplicationStopping);
+}
+```
+
   
 </details>
