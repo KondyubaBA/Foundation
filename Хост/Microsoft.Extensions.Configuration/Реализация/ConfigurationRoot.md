@@ -1,4 +1,18 @@
 ```cs
+public interface IConfigurationRoot
+{
+      void Reload();
+      IEnumerable<IConfigurationProvider> Providers { get; }
+      
+      //IConfiguration
+      string? this[string key] { get; set; }
+      IConfigurationSection GetSection(string key);
+      IEnumerable<IConfigurationSection> GetChildren();
+      IChangeToken GetReloadToken(); 
+}
+```
+
+```cs
 [DebuggerDisplay("{DebuggerToString(),nq}")]
 [DebuggerTypeProxy(typeof(ConfigurationRootDebugView))]
 public class ConfigurationRoot : IConfigurationRoot, IDisposable
