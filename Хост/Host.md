@@ -100,9 +100,62 @@ if (_hostedLifecycleServices is not null)
   - ForeachService — это вспомогательный метод, который вызывает метод StartingAsync для каждой службы.
   - LogAndRethrow(); — вызывается для логирования и прерывания процесса запуска, если возникли исключения.
 
+#### Запуск служб
+```cs
+await ForeachService(_hostedServices, token, concurrent, abortOnFirstException, exceptions,
+    async (service, token) =>
+    {
+        await service.StartAsync(token).ConfigureAwait(false);
 
+        if (service is BackgroundService backgroundService)
+        {
+            _ = TryExecuteBackgroundServiceAsync(backgroundService);
+        }
+    }).ConfigureAwait(false);
+LogAndRethrow();
+```
+  - Вызывает метод StartAsync для каждой службы.
+  - Если служба является BackgroundService, вызывается метод TryExecuteBackgroundServiceAsync для запуска фоновой задачи.
 
+#### Завершение запуска служб
+```cs
+if (_hostedLifecycleServices is not null)
+{
+    await ForeachService(_hostedLifecycleServices, token, concurrent, abortOnFirstException, exceptions,
+        (service, token) => service.StartedAsync(token)).ConfigureAwait(false);
+}
+LogAndRethrow();
+```
+  - Вызывает метод StartedAsync для каждой службы, чтобы завершить процесс запуска.
 
+#### Уведомление о завершении запуска
+```cs
+_applicationLifetime.NotifyStarted();
+```
+  - Уведомляет IHostApplicationLifetime, что процесс запуска завершен.
+
+#### Логирование и обработка исключений
+```cs
+void LogAndRethrow()
+{
+    if (exceptions.Count > 0)
+    {
+        if (exceptions.Count == 1)
+        {
+            Exception singleException = exceptions[0];
+            _logger.HostedServiceStartupFaulted(singleException);
+            ExceptionDispatchInfo.Capture(singleException).Throw();
+        }
+        else
+        {
+            var ex = new AggregateException("One or more hosted services failed to start.", exceptions);
+            _logger.HostedServiceStartupFaulted(ex);
+            throw ex;
+        }
+    }
+}
+```
+  - Если в процессе запуска возникли исключения, они логируются и выбрасываются.
 
   
 </details>
