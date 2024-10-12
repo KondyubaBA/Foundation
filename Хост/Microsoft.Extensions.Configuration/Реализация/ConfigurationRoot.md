@@ -1,3 +1,6 @@
+<details>
+  <summary>IConfigurationRoot</summary>
+      
 ```cs
 public interface IConfigurationRoot
 {
@@ -11,7 +14,11 @@ public interface IConfigurationRoot
       IChangeToken GetReloadToken(); 
 }
 ```
+</details>
 
+<details>
+  <summary>ConfigurationRoot</summary>
+      
 ```cs
 [DebuggerDisplay("{DebuggerToString(),nq}")]
 [DebuggerTypeProxy(typeof(ConfigurationRootDebugView))]
@@ -127,3 +134,4 @@ public class ConfigurationRoot : IConfigurationRoot, IDisposable
     }
 }
 ```
+</details>
