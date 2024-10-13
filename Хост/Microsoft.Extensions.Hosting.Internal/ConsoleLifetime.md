@@ -1,3 +1,20 @@
+<details>
+    <summary>interface</summary>
+    
+```cs
+ public interface IDisposable
+ {
+     void Dispose();
+ }
+    
+public interface IHostLifetime
+{
+    Task WaitForStartAsync(CancellationToken cancellationToken);
+    Task StopAsync(CancellationToken cancellationToken);
+}
+```    
+</details>
+
 ```cs
 [UnsupportedOSPlatform("android")]
 [UnsupportedOSPlatform("browser")]
