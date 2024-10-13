@@ -330,6 +330,25 @@ public partial class HostBuilder : IHostBuilder
     }
 }
 </details>
-
-
 ```
+
+<details>
+    <summary>partial HostBuilder</summary>
+
+```cs
+public partial class HostBuilder
+{
+    private static void AddLifetime(IServiceCollection services)
+    {
+        if (!OperatingSystem.IsAndroid() && !OperatingSystem.IsBrowser() && !OperatingSystem.IsIOS() && !OperatingSystem.IsTvOS())
+        {
+            services.AddSingleton<IHostLifetime, ConsoleLifetime>();
+        }
+        else
+        {
+            services.AddSingleton<IHostLifetime, NullLifetime>();
+        }
+    }
+}
+```    
+</details>
