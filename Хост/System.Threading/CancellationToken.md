@@ -1,3 +1,6 @@
+<details>
+    <summary>CancellationToken</summary>
+
 ```cs
 [DebuggerDisplay("IsCancellationRequested = {IsCancellationRequested}")]
 public readonly struct CancellationToken : IEquatable<CancellationToken>
@@ -74,3 +77,16 @@ public readonly struct CancellationToken : IEquatable<CancellationToken>
         throw new OperationCanceledException(SR.OperationCanceled, this);
 }
 ```
+</details>
+
+- Свойства
+    - **IsCancellationRequested**: Булево значение, указывающее, была ли отмена запрошена.
+    - **CanBeCanceled**: Булево значение, указывающее, может ли токен быть отменен.
+    - **WaitHandle**: Объект WaitHandle, который можно использовать для ожидания отмены.
+- Методы
+    - **Register(Action<object?>, object?)**: Регистрирует делегат, который будет вызван, когда отмена будет запрошена.
+    - **Register(Action)**: Регистрирует делегат, который будет вызван, когда отмена будет запрошена (без параметров).
+    - **ThrowIfCancellationRequested()**: Выбрасывает исключение OperationCanceledException, если отмена была запрошена.
+    - **WaitHandle.WaitOne()**: Ожидает, пока отмена будет запрошена.
+- Статические свойства
+    - **None**: Возвращает токен отмены, который никогда не будет отменен.
