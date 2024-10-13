@@ -329,8 +329,8 @@ public partial class HostBuilder : IHostBuilder
         return host;
     }
 }
-</details>
 ```
+</details>
 
 <details>
     <summary>partial HostBuilder</summary>
