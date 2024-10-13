@@ -1,3 +1,6 @@
+<details>
+    <summary>IHostBuilder</summary>
+    
 ```cs
 public interface IHostBuilder
 {
@@ -11,7 +14,11 @@ public interface IHostBuilder
     IHost Build();
 }
 ```
+</details>
 
+<details>
+    <summary>partial HostBuilder</summary>
+    
 ```cs
 public partial class HostBuilder : IHostBuilder
 {
@@ -322,6 +329,7 @@ public partial class HostBuilder : IHostBuilder
         return host;
     }
 }
+</details>
 
 
 ```
