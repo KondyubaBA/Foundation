@@ -146,3 +146,32 @@ public partial class ConsoleLifetime : IHostLifetime
 }
 ```
 </details>
+
+<details>
+    <summary>Описание</summary>
+
+```cs
+public Task WaitForStartAsync(CancellationToken cancellationToken)
+{
+    if (!Options.SuppressStatusMessages)
+    {
+        _applicationStartedRegistration = ApplicationLifetime.ApplicationStarted.Register(state =>
+        {
+            ((ConsoleLifetime)state!).OnApplicationStarted();
+        },
+        this);
+        _applicationStoppingRegistration = ApplicationLifetime.ApplicationStopping.Register(state =>
+        {
+            ((ConsoleLifetime)state!).OnApplicationStopping();
+        },
+        this);
+    }
+
+    RegisterShutdownHandlers();
+
+    // Console applications start immediately.
+    return Task.CompletedTask;
+}
+
+```
+</details>
