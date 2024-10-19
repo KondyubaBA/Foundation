@@ -95,7 +95,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JTM4jn1HUgV034AHDBam" name="Configure">
-    <mxGraphModel dx="1046" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="889" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,7 +112,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V1luG3iUTrNZWRXgEADD-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IConfigurationBuilder&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Properties:&amp;nbsp;&lt;i&gt;IDictionary&amp;lt;string, object&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Sources:&amp;nbsp;&lt;i&gt;IList&amp;lt;IConfigurationSource&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Add:&amp;nbsp;&lt;i&gt;IConfigurationBuilder&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Build:&amp;nbsp;&lt;i&gt;IConfigurationRoot&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="530" y="-320" width="210" height="120" as="geometry" />
+          <mxGeometry x="530" y="-360" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="V1luG3iUTrNZWRXgEADD-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="V1luG3iUTrNZWRXgEADD-1" target="V1luG3iUTrNZWRXgEADD-4">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -121,10 +121,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V1luG3iUTrNZWRXgEADD-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Microsoft.Extensions.Configuration&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;IConfiguration&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;IConfigurationBuilder&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;IConfigurationManager&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;IConfigurationProvider&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;IConfigurationRoot&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;IConfigurationSection&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;IConfigurationSource&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ConfigurationPath&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-560" width="220" height="180" as="geometry" />
+          <mxGeometry x="600" y="-910" width="220" height="180" as="geometry" />
         </mxCell>
         <mxCell id="V1luG3iUTrNZWRXgEADD-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;IConfigurationProvider&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;GetChildKeys:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;IEnumerable&amp;lt;string&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;GetReloadToken:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;IChangeToken&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Load: &lt;i&gt;void&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Set:&amp;nbsp;&lt;i&gt;void&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;TryGet:&amp;nbsp;&lt;i&gt;bool&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-560" width="200" height="120" as="geometry" />
+          <mxGeometry x="40" y="-760" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="V1luG3iUTrNZWRXgEADD-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;IConfigurationRoot&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Reload:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;void&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Providers:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;IEnumerable&amp;lt;IConfigurationProvider&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="80" y="-110" width="270" height="80" as="geometry" />
@@ -145,7 +145,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V1luG3iUTrNZWRXgEADD-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;I&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;ConfigurationSource&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Build:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;IConfigurationProvider&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="345" y="-560" width="160" height="70" as="geometry" />
+          <mxGeometry x="400" y="-760" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;abstract&lt;b&gt; StreamConfigurationSource&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-630" width="220" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-2" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aCgiojUaGtQJ8ndLfyiy-1" target="V1luG3iUTrNZWRXgEADD-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="-630" as="sourcePoint" />
+            <mxPoint x="445" y="-750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;abstract&lt;b&gt; StreamConfigurationProvider&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-591" width="230" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aCgiojUaGtQJ8ndLfyiy-3" target="V1luG3iUTrNZWRXgEADD-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="-560" as="sourcePoint" />
+            <mxPoint x="290" y="-690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MemoryConfigurationSource&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-560" width="180" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aCgiojUaGtQJ8ndLfyiy-5" target="V1luG3iUTrNZWRXgEADD-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="-630" as="sourcePoint" />
+            <mxPoint x="320" y="-690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MemoryConfigurationProvider&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-521" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aCgiojUaGtQJ8ndLfyiy-7" target="V1luG3iUTrNZWRXgEADD-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="245" y="-560" as="sourcePoint" />
+            <mxPoint x="150" y="-630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
