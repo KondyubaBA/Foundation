@@ -38,3 +38,35 @@ public static class ApplicationMetadataHostBuilderExtensions
 }
 ```
 </details>
+
+<details>
+  <summary>AddFakeLoggingOutputSink</summary>
+
+```cs
+public static class FakeHostingExtensions
+{
+    public static IHostBuilder AddFakeLoggingOutputSink(this IHostBuilder builder, Action<string> callback)
+    {
+        _ = Throw.IfNull(builder);
+        _ = Throw.IfNull(callback);
+
+        return builder.ConfigureServices(services => services.AddFakeLogging(logging =>
+        {
+            if (logging.OutputSink is null)
+            {
+                logging.OutputSink = callback;
+            }
+            else
+            {
+                var currentCallback = logging.OutputSink;
+                logging.OutputSink = x =>
+                {
+                    currentCallback(x);
+                    callback(x);
+                };
+            }
+        }));
+    }
+}
+```
+</details>
