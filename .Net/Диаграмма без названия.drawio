@@ -216,21 +216,18 @@
         <mxCell id="aCgiojUaGtQJ8ndLfyiy-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;Реализации&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;MemoryConfigurationProvider&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;CommandLineConfigurationProvider&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;EnvironmentVariablesConfigurationProvider&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-580" y="-620" width="240" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="aCgiojUaGtQJ8ndLfyiy-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;abstract&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;FileConfigurationSource&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="620" y="-639" width="220" height="39" as="geometry" />
-        </mxCell>
         <mxCell id="aCgiojUaGtQJ8ndLfyiy-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;Реализации&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;IniConfigurationSource&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="610" y="-560" width="240" height="60" as="geometry" />
+          <mxGeometry x="640" y="-560" width="163" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aCgiojUaGtQJ8ndLfyiy-22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="aCgiojUaGtQJ8ndLfyiy-21" target="aCgiojUaGtQJ8ndLfyiy-20" edge="1">
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="aCgiojUaGtQJ8ndLfyiy-21" target="jRoDtuM2xoWVMHSKAYaA-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="600" y="-600" as="sourcePoint" />
-            <mxPoint x="485" y="-632" as="targetPoint" />
+            <mxPoint x="730" y="-590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aCgiojUaGtQJ8ndLfyiy-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="aCgiojUaGtQJ8ndLfyiy-20" target="V1luG3iUTrNZWRXgEADD-12" edge="1">
+        <mxCell id="aCgiojUaGtQJ8ndLfyiy-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="jRoDtuM2xoWVMHSKAYaA-3" target="V1luG3iUTrNZWRXgEADD-12" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="516" y="-629" as="sourcePoint" />
+            <mxPoint x="730" y="-639" as="sourcePoint" />
             <mxPoint x="530" y="-680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -281,6 +278,9 @@
         </mxCell>
         <mxCell id="jRoDtuM2xoWVMHSKAYaA-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConfigurationProvider&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;abstract class&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-240" y="-720" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jRoDtuM2xoWVMHSKAYaA-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b style=&quot;text-align: left;&quot;&gt;FileConfigurationSource&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-639" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
