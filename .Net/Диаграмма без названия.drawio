@@ -455,13 +455,19 @@
           <mxGeometry x="40" y="560" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="S6usmPDqZaUaMMj72xj2-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;IHubCallerClients&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Caller:&amp;nbsp;&lt;i&gt;T&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Others: &lt;i&gt;T&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;OthersInGroup(): &lt;i&gt;T&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="400" width="140" height="110" as="geometry" />
+          <mxGeometry x="40" y="400" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="S6usmPDqZaUaMMj72xj2-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S6usmPDqZaUaMMj72xj2-6" target="S6usmPDqZaUaMMj72xj2-7">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="360" y="540" as="sourcePoint" />
             <mxPoint x="520" y="540" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S6usmPDqZaUaMMj72xj2-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;IHubProtocolResolver&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;AllProtocols:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;IReadOnlyList&amp;lt;IHubProtocol&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;GetProtocol:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;IHubProtocol?&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S6usmPDqZaUaMMj72xj2-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;IUserIdProvider&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;GetUserId:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;string?&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="400" width="130" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
