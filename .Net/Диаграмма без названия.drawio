@@ -443,7 +443,7 @@
           <mxGeometry x="680" y="140" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="S6usmPDqZaUaMMj72xj2-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;IGroupManager&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;AddToGroupAsync:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;Task&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;RemoveFromGroupAsync: Task&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="680" y="40" width="180" height="85" as="geometry" />
+          <mxGeometry x="1160" y="40" width="190" height="85" as="geometry" />
         </mxCell>
         <mxCell id="S6usmPDqZaUaMMj72xj2-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;IHubFilter&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;InvokeMethodAsync:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;ValueTask&amp;lt;object?&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;OnConnectedAsync&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;i&gt; Task&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;OnConnectedAsync:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;Task&lt;/i&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="40" y="150" width="230" height="90" as="geometry" />
@@ -468,6 +468,15 @@
         </mxCell>
         <mxCell id="S6usmPDqZaUaMMj72xj2-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;IUserIdProvider&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;GetUserId:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;string?&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="680" y="400" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S6usmPDqZaUaMMj72xj2-11" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;GroupManager&amp;lt;THub&amp;gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;AddToGroupAsync():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;Task&lt;/i&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RemoveFromGroupAsync()&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;i&gt; Task&lt;/i&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="160" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S6usmPDqZaUaMMj72xj2-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S6usmPDqZaUaMMj72xj2-11" target="S6usmPDqZaUaMMj72xj2-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1030" y="420" as="sourcePoint" />
+            <mxPoint x="1190" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
