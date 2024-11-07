@@ -465,7 +465,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kTRtanaYjxNym61opfXN-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;DiscriminatorBuilder&lt;/b&gt;&amp;lt;TDiscriminator&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;b&gt;IsComplete&lt;/b&gt;(&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bool complete = true&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;):&amp;nbsp;&lt;i&gt;DiscriminatorBuilder&amp;lt;TDiscriminator&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;b&gt;HasValue&lt;/b&gt;&amp;lt;TEntity&amp;gt;(&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TDiscriminator value&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;):&amp;nbsp;&lt;i&gt;DiscriminatorBuilder&amp;lt;TDiscriminator&amp;gt;&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="3240" y="-1080" width="320" height="390" as="geometry" />
+          <mxGeometry x="3240" y="-840" width="320" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
