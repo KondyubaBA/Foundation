@@ -208,7 +208,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3h9Ix1HxHp3U8MHV2RpL" name="EF">
-    <mxGraphModel dx="4155" dy="3084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4982" dy="3084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -320,7 +320,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YQEtYBftUjf4ZrY-UIt6-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;IInfrastructure&amp;lt;IServiceProvider&amp;gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-2200" y="-1200" width="250" height="80" as="geometry" />
+          <mxGeometry x="-2130" y="-1200" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YQEtYBftUjf4ZrY-UIt6-2" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OWquu1tkqfsBGoZ5-1_s-1" target="YQEtYBftUjf4ZrY-UIt6-1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -328,8 +328,8 @@
             <mxPoint x="-1900" y="-1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YQEtYBftUjf4ZrY-UIt6-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;IDatabaseFacadeDependenciesAccessor&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1920" y="-1200" width="280" height="80" as="geometry" />
+        <mxCell id="YQEtYBftUjf4ZrY-UIt6-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;IDatabaseFacadeDependenciesAccessor&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Dependencies:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 64, 133); background-color: initial;&quot;&gt;IDatabaseFacadeDependencies&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Context:&amp;nbsp;&lt;span style=&quot;color: rgb(0, 64, 133); background-color: initial;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 64, 133); background-color: initial;&quot;&gt;DbContext&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1904" y="-1200" width="274" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YQEtYBftUjf4ZrY-UIt6-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OWquu1tkqfsBGoZ5-1_s-1" target="YQEtYBftUjf4ZrY-UIt6-3">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -342,6 +342,18 @@
             <mxPoint x="-1800" y="-990" as="sourcePoint" />
             <mxPoint x="-1770" y="-1110" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YQEtYBftUjf4ZrY-UIt6-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;b&gt;AutoTransactionBehavior&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;WhenNeeded&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;Always&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;Never&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="-1000" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YQEtYBftUjf4ZrY-UIt6-14" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWquu1tkqfsBGoZ5-1_s-1" target="YQEtYBftUjf4ZrY-UIt6-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2160" y="-860" as="sourcePoint" />
+            <mxPoint x="-2390" y="-860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQEtYBftUjf4ZrY-UIt6-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DatabaseFacade описание&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;CurrentTransaction&lt;/b&gt; - получить текущую транзакцию&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2840" y="-1200" width="360" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
