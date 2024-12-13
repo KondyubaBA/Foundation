@@ -344,10 +344,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e3jynB3-pIT41HQNhtNR-11" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;PrincipalContext&lt;/span&gt;&amp;lt;TOptions&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="960" width="320" height="40" as="geometry" />
+          <mxGeometry x="-2000" y="960" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e3jynB3-pIT41HQNhtNR-12" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;PropertiesContext&lt;/span&gt;&amp;lt;TOptions&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="880" width="320" height="40" as="geometry" />
+          <mxGeometry x="-2000" y="880" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e3jynB3-pIT41HQNhtNR-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="e3jynB3-pIT41HQNhtNR-11" target="e3jynB3-pIT41HQNhtNR-12">
           <mxGeometry width="160" relative="1" as="geometry">
