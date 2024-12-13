@@ -168,12 +168,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8xll9eOoyj7_wS11QiwD" name="Authentication">
-    <mxGraphModel dx="4092" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4451" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OPyEjiFZqsbfmIUygcyt-2" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;AuthenticateResult&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-2800" y="880" width="160" height="40" as="geometry" />
+          <mxGeometry x="-3050" y="690" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OPyEjiFZqsbfmIUygcyt-3" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;AuthenticationFailureException&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="240" y="40" width="230" height="40" as="geometry" />
@@ -206,7 +206,7 @@
           <mxGeometry x="190" y="220" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OPyEjiFZqsbfmIUygcyt-14" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;IAuthenticationConfigurationProvider&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-2600" y="880" width="280" height="40" as="geometry" />
+          <mxGeometry x="-2850" y="690" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OPyEjiFZqsbfmIUygcyt-15" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;IAuthenticationFeature&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="190" y="340" width="240" height="40" as="geometry" />
@@ -254,10 +254,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OPyEjiFZqsbfmIUygcyt-28" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;HandleRequestContext&lt;/span&gt;&amp;lt;TOptions&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-2280" y="960" width="240" height="40" as="geometry" />
+          <mxGeometry x="-2600" y="960" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OPyEjiFZqsbfmIUygcyt-29" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;BaseContext&lt;/span&gt;&amp;lt;TOptions&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-2280" y="880" width="240" height="40" as="geometry" />
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-29" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;BaseContext&lt;/span&gt;&amp;lt;TOptions&amp;gt;&lt;div&gt;TOptions =&amp;nbsp;&lt;span style=&quot;background-color: initial; color: rgb(0, 64, 133);&quot;&gt;AuthenticationSchemeOptions&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-2290" y="880" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OPyEjiFZqsbfmIUygcyt-30" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="OPyEjiFZqsbfmIUygcyt-28" target="OPyEjiFZqsbfmIUygcyt-29" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -277,16 +277,16 @@
             <mxPoint x="-790" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OPyEjiFZqsbfmIUygcyt-34" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;TicketReceivedContext&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-200" y="960" width="400" height="40" as="geometry" />
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-34" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;TicketReceivedContext&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;TOptions =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 64, 133); background-color: initial;&quot;&gt;RemoteAuthenticationOptions&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-2481" y="1200" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OPyEjiFZqsbfmIUygcyt-35" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;RemoteAuthenticationContext&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;RemoteAuthenticationOptions&lt;/span&gt;&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-200" y="880" width="400" height="40" as="geometry" />
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-35" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;RemoteAuthenticationContext&lt;/span&gt;&amp;lt;T&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;Options&lt;/span&gt;&amp;gt;&lt;div&gt;TOptions =&amp;nbsp;&lt;span style=&quot;color: rgb(0, 64, 133); font-weight: normal; background-color: initial;&quot;&gt;AuthenticationSchemeOptions&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-2481" y="1120" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OPyEjiFZqsbfmIUygcyt-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OPyEjiFZqsbfmIUygcyt-34" target="OPyEjiFZqsbfmIUygcyt-35" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-390" y="970" as="sourcePoint" />
-            <mxPoint x="-390" y="930" as="targetPoint" />
+            <mxPoint x="-2590" y="1210" as="sourcePoint" />
+            <mxPoint x="-2590" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OPyEjiFZqsbfmIUygcyt-37" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;TicketDataFormat&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
@@ -371,21 +371,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e3jynB3-pIT41HQNhtNR-19" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;DefaultAuthenticationConfigurationProvider&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-2600" y="960" width="280" height="40" as="geometry" />
+          <mxGeometry x="-2850" y="770" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e3jynB3-pIT41HQNhtNR-20" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="e3jynB3-pIT41HQNhtNR-19" target="OPyEjiFZqsbfmIUygcyt-14" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2070" y="970" as="sourcePoint" />
-            <mxPoint x="-2070" y="930" as="targetPoint" />
+            <mxPoint x="-2320" y="780" as="sourcePoint" />
+            <mxPoint x="-2320" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e3jynB3-pIT41HQNhtNR-21" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;HandleRequestResult&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-2800" y="960" width="160" height="40" as="geometry" />
+          <mxGeometry x="-3050" y="770" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e3jynB3-pIT41HQNhtNR-22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="e3jynB3-pIT41HQNhtNR-21" target="OPyEjiFZqsbfmIUygcyt-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2450" y="970" as="sourcePoint" />
-            <mxPoint x="-2450" y="930" as="targetPoint" />
+            <mxPoint x="-2700" y="780" as="sourcePoint" />
+            <mxPoint x="-2700" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e3jynB3-pIT41HQNhtNR-23" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;JsonDocumentAuthExtensions&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
@@ -455,6 +455,30 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-1500" y="625" as="sourcePoint" />
             <mxPoint x="-1500" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gpvg1VOFwmEHTPQhG1KP-21" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;RedirectContext&lt;/span&gt;&amp;lt;TOptions&amp;gt;&lt;div&gt;TOptions =&amp;nbsp;&lt;span style=&quot;color: rgb(0, 64, 133); background-color: initial;&quot;&gt;AuthenticationSchemeOptions&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1720" y="960" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpvg1VOFwmEHTPQhG1KP-22" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gpvg1VOFwmEHTPQhG1KP-21" target="e3jynB3-pIT41HQNhtNR-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1630" y="910" as="sourcePoint" />
+            <mxPoint x="-1630" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gpvg1VOFwmEHTPQhG1KP-23" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;HandleRequestContext&lt;/span&gt;&amp;lt;TOptions&amp;gt;&lt;br&gt;&lt;div&gt;TOptions =&amp;nbsp;&lt;span style=&quot;color: rgb(0, 64, 133); background-color: initial;&quot;&gt;AuthenticationSchemeOptions&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2481" y="1040" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gpvg1VOFwmEHTPQhG1KP-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OPyEjiFZqsbfmIUygcyt-35" target="Gpvg1VOFwmEHTPQhG1KP-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2350" y="1160" as="sourcePoint" />
+            <mxPoint x="-2350" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gpvg1VOFwmEHTPQhG1KP-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gpvg1VOFwmEHTPQhG1KP-23" target="OPyEjiFZqsbfmIUygcyt-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2340" y="1060" as="sourcePoint" />
+            <mxPoint x="-2340" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
