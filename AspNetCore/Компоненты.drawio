@@ -168,7 +168,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8xll9eOoyj7_wS11QiwD" name="Authentication">
-    <mxGraphModel dx="2199" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3026" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -260,7 +260,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OPyEjiFZqsbfmIUygcyt-28" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;HandleRequestContext&lt;/span&gt;&amp;lt;TOptions&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-680" y="840" width="240" height="40" as="geometry" />
+          <mxGeometry x="-720" y="720" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-29" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;BaseContext&lt;/span&gt;&amp;lt;TOptions&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-720" y="640" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-30" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OPyEjiFZqsbfmIUygcyt-28" target="OPyEjiFZqsbfmIUygcyt-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-360" y="835" as="sourcePoint" />
+            <mxPoint x="-360" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-31" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;TicketSerializer&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-520" y="960" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-32" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;IDataSerializer&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;AuthenticationTicket&lt;/span&gt;&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-520" y="880" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-33" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OPyEjiFZqsbfmIUygcyt-31" target="OPyEjiFZqsbfmIUygcyt-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-790" y="730" as="sourcePoint" />
+            <mxPoint x="-790" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-34" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;TicketReceivedContext&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-200" y="960" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-35" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;RemoteAuthenticationContext&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;RemoteAuthenticationOptions&lt;/span&gt;&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-200" y="880" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPyEjiFZqsbfmIUygcyt-34" target="OPyEjiFZqsbfmIUygcyt-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-390" y="970" as="sourcePoint" />
+            <mxPoint x="-390" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-37" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;TicketDataFormat&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-840" y="880" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
