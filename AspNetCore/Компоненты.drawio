@@ -296,7 +296,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OPyEjiFZqsbfmIUygcyt-37" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;TicketDataFormat&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-840" y="880" width="240" height="40" as="geometry" />
+          <mxGeometry x="-920" y="960" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-38" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;SecureDataFormat&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;AuthenticationTicket&lt;/span&gt;&amp;gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-920" y="880" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OPyEjiFZqsbfmIUygcyt-40" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OPyEjiFZqsbfmIUygcyt-37" target="OPyEjiFZqsbfmIUygcyt-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-390" y="970" as="sourcePoint" />
+            <mxPoint x="-390" y="930" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
