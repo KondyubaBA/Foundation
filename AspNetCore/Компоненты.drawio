@@ -168,7 +168,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8xll9eOoyj7_wS11QiwD" name="Authentication">
-    <mxGraphModel dx="4140" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4288" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -612,6 +612,15 @@
         </mxCell>
         <mxCell id="xfP40D-gNjg409uvg00q-52" value="&lt;span style=&quot;color: rgb(0, 64, 133);&quot;&gt;CookieAuthenticationEvents&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-2680" y="2320" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xfP40D-gNjg409uvg00q-53" value="&lt;span style=&quot;&quot;&gt;CookieAuthenticationHandler&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;TOptions =&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CookieAuthenticationOptions&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-2510" y="1830" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xfP40D-gNjg409uvg00q-54" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xfP40D-gNjg409uvg00q-53" target="xfP40D-gNjg409uvg00q-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2120" y="1840" as="sourcePoint" />
+            <mxPoint x="-2120" y="1800" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
