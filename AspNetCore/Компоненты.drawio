@@ -168,7 +168,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8xll9eOoyj7_wS11QiwD" name="Authentication">
-    <mxGraphModel dx="4752" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4140" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -367,12 +367,9 @@
         <mxCell id="4oeLkv13o6Olcl9yid9E-1" value="&lt;span style=&quot;&quot;&gt;RemoteAuthenticationEvents&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-3308" y="1230" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4oeLkv13o6Olcl9yid9E-2" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;RemoteAuthenticationOptions&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-1830" y="1640" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4oeLkv13o6Olcl9yid9E-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="4oeLkv13o6Olcl9yid9E-2" target="e3jynB3-pIT41HQNhtNR-6" edge="1">
+        <mxCell id="4oeLkv13o6Olcl9yid9E-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="O8LYOiZiOeQgDRGTUNNs-31" target="e3jynB3-pIT41HQNhtNR-6" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1650" y="1700" as="sourcePoint" />
+            <mxPoint x="-1695" y="1640" as="sourcePoint" />
             <mxPoint x="-1810" y="1580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -690,6 +687,9 @@
             <mxPoint x="-1130" y="1810" as="sourcePoint" />
             <mxPoint x="-1255" y="1610" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="O8LYOiZiOeQgDRGTUNNs-31" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;RemoteAuthenticationOptions&lt;/b&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;BackchannelTimeout:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;TimeSpan&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;BackchannelHttpHandler:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HttpMessageHandler&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;?&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Backchannel:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;HttpClient&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;DataProtectionProvider:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IDataProtectionProvider&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;?&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;CallbackPath:&lt;i&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PathString&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;AccessDeniedPath:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;PathString&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ReturnUrlParameter:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;string&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;SignInScheme:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;?&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;RemoteAuthenticationTimeout:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;TimeSpan&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Events:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;RemoteAuthenticationEvents&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;SaveTokens: &lt;i&gt;bool&lt;/i&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;CorrelationCookie:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;CookieBuilder&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;&quot;&gt;Validate&lt;/span&gt;(&lt;span style=&quot;&quot;&gt;string&lt;/span&gt; scheme): &lt;i&gt;void&lt;/i&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;&quot;&gt;Validate&lt;/span&gt;():&lt;i&gt; void&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;spacing=2;fontColor=#000000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="1644" width="300" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
